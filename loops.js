@@ -8,3 +8,11 @@ function forLoop(arr){
   }
   return arr
 }
+
+function whileLoop(num){
+  var countdown = num
+  while (countdown > 0){
+    console.log(--countdown)
+  }
+  return 'done'
+}
