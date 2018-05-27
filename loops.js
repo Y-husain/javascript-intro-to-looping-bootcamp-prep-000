@@ -1,5 +1,10 @@
-function forLoop([0,1,2,3,4,5]){
-  for (let i = 0; i < 25; i++) {
-    console.log( "i am ${i} strange loops")
+function forLoop(arr){
+  for (var i=0; i<25; i++){
+    if (i === 1){
+      arr.push("I am 1 strange loop.")
+    }else{
+      arr.push(`I am ${i} strange loops.`)
+    }
   }
+  return arr
 }
